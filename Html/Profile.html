@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="./logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container justify-content-start">
+            <div><img src="./logo.png" alt="logo" width="70vw"></div>
+            <div class="row">
+                <div
+                    style="color: #82A70C; font-size: x-large; font-weight: 700; font-family: 'Times New Roman', Times, serif;">
+                    EMPLOYEE
+                </div>
+                <div
+                    style="color: #3D3D3D; font-size: x-large; font-weight: 700; font-family: 'Times New Roman', Times, serif;">
+                    PAYROLL
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-body-secondary d-flex justify-content-center p-4">
+        <div class="card w-50">
+            <div class="p-4" style="color: #42515F; font-size: x-large; font-weight: 700;">
+                Employee Payroll Form
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label>Name </label>
+                <input id="name" type="text" class="w-75">
+            </div>
+            <div class="d-flex justify-content-around px-2">
+                <label>Profile </label>
+                <div class="d-flex w-75">
+                    <div class="px-2">
+                        <input type="radio" name="Profile" value="./img1.png" src="./img1.png">
+                        <img class="Profile" src="./img1.png" alt="profile1" width="40vw">
+                    </div>
+                    <div class="px-2">
+                        <input type="radio" name="Profile" value="./img2.png" src="./img2.png">
+                        <img class="Profile" src="./img2.png" alt="profile1" width="40vw">
+                    </div>
+                    <div class="px-2">
+                        <input type="radio" name="Profile" value="./img3.png" src="./img3.png">
+                        <img class="Profile" src="./img3.png" alt="profile1" width="40vw">
+                    </div>
+                    <div class="px-2">
+                        <input type="radio" name="Profile" value="./img4.png" src="./img4.png">
+                        <img class="Profile" src="./img4.png" alt="profile1" width="40vw">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label>Gender </label>
+                <div class="d-flex w-75">
+                    <div class="px-2">
+                        <input type="radio" id="Male" name="Gender" value="Male">
+                        <label for="Male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Female" name="Gender" value="Female">
+                        <label for="Female">Female</label>
+                    </div class="px-2">
+                </div>
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label>Department</label>
+                <div class="d-flex w-75">
+                    <div class="px-2">
+                        <input type="checkbox" id="HR" name="Departments" value="HR">
+                        <label for="HR">HR</label>
+                    </div>
+                    <div class="px-2">
+                        <input type="checkbox" id="Sales" name="Departments" value="Sales">
+                        <label for="Sales">Sales</label>
+                    </div>
+                    <div class="px-2">
+                        <input type="checkbox" id="Finance" name="Departments" value="Finance">
+                        <label for="Finance">Finance</label>
+                    </div>
+                    <div class="px-2">
+                        <input type="checkbox" id="Engineer" name="Departments" value="Engineer">
+                        <label for="Engineer">Engineer</label>
+                    </div>
+                    <div class="px-2">
+                        <input type="checkbox" id="Others" name="Departments" value="Others">
+                        <label for="Others">Others</label>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label for="Salary">Salary </label>
+                <div class="d-flex w-75">
+                    <div class="w-25">
+                        <select class="form-select" name="Salary" id="Salary">
+                            <option value="" selected>-select-</option>
+                            <option value="₹10,000">₹10,000</option>
+                            <option value="₹20,000">₹20,000</option>
+                            <option value="₹30,000">₹30,000</option>
+                            <option value="₹40,000">₹40,000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label for="Date">Start Date</label>
+                <div class="d-flex w-75">
+                    <div>
+                        <select class="form-select" name="day" id="day">
+                            <option value="" selected>Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </div>
+                    <div class="px-2">
+                        <select class="form-select" name="month" id="month">
+                            <option value="">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="form-select" name="year" id="year">
+                            <option value="">Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <label>Note </label>
+                <input type="text" class="w-75" style="height: 20vh;">
+            </div>
+            <div class="d-flex justify-content-around p-2">
+                <div>
+                    <button type="button" class="btn btn-secondary"><a href="./Template.html" style="text-decoration: none; color: #fff;">Cancel</a></button>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-secondary" onclick="saveData()">Submit</button>
+                    <button type="submit" class="btn btn-secondary">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Profile.js"></script>
+</html>

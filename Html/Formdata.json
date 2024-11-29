@@ -1,0 +1,63 @@
+{
+  "formData": [
+    {
+      "id": "1",
+      "name": "Shaik Ismail",
+      "image": "http://127.0.0.1:5500/Html/img4.png",
+      "gender": "Male",
+      "department": [
+        "Sales"
+      ],
+      "salary": "₹30,000",
+      "date": "17 Jun 2021"
+    },
+    {
+      "id": "2",
+      "name": "Dolly",
+      "image": "http://127.0.0.1:5500/Html/img1.png",
+      "gender": "Female",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "₹40,000",
+      "date": "01 Jan 2019"
+    },
+    {
+      "id": "3",
+      "name": "Ajass Khan",
+      "image": "http://127.0.0.1:5500/Html/img2.png",
+      "gender": "Male",
+      "department": [
+        "Sales",
+        "Finance"
+      ],
+      "salary": "₹20,000",
+      "date": "17 Nov 2023"
+    },
+    {
+      "id": "4",
+      "name": "Jhon Deo",
+      "image": "http://127.0.0.1:5500/Html/img2.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Engineer"
+      ],
+      "salary": "₹40,000",
+      "date": "13 Aug 2019"
+    },
+    {
+      "id": "5",
+      "name": "Aisha Khan",
+      "image": "http://127.0.0.1:5500/Html/img1.png",
+      "gender": "Female",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "₹20,000",
+      "date": "07 May 2021"
+    }
+  ]
+}
